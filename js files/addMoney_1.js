@@ -1,7 +1,8 @@
 
 
 
-document.getElementById("donation-btn-1").addEventListener("click",function(){
+document.getElementById("donation-btn-1").addEventListener("click",function(event){
+    event.preventDefault()
    
 
 
@@ -41,6 +42,7 @@ document.getElementById("donation-btn-1").addEventListener("click",function(){
     const newBalance1 = amountA + balance1;
     document.getElementById("balance-1").innerText = newBalance1;
 
+    
     const dateInBangladesh = new Date();
     const div = document.createElement('div');
     div.classList.add('border', 'rounded-xl' ,'p-4' ,'flex','flex-col' ,'gap-2','mx-2','lg:mx-0')
@@ -49,4 +51,25 @@ document.getElementById("donation-btn-1").addEventListener("click",function(){
         <small class="pl-0 lg:pl-5 py-2 rounded bg-[#f3f3f3]"> ${dateInBangladesh} </small>`
 
     document.getElementById("hitory-section").appendChild(div)
+
+    // const modal_get = my_modal_5.showModal()
 })
+
+
+
+// ==========================================================================================
+
+
+// document.getElementById("close-btn").addEventListener("click",function(event){
+//     event.preventDefault()
+
+
+
+
+
+
+
+
+
+
+// })
