@@ -45,7 +45,7 @@ document.getElementById("donation-btn-2").addEventListener("click",function(){
     const div = document.createElement('div');
     div.classList.add('border', 'rounded-xl' ,'p-4' ,'flex','flex-col' ,'gap-2','mx-2','lg:mx-0')
 
-    div.innerHTML = ` <h1 class="text-sm lg:text-xl  font-bold">${amountA} Taka is Donate for Flood at Noakhali, Bangladesh </h1>
+    div.innerHTML = ` <h1 class="text-sm lg:text-xl  font-bold">${amountA} Taka is Donated for Flood Relief in Feni,Bangladesh </h1>
         <small class="pl-0 lg:pl-5 py-2 rounded bg-[#f3f3f3]"> ${dateInBangladesh} </small>`
 
     document.getElementById("hitory-section").appendChild(div)
