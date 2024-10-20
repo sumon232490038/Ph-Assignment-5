@@ -52,24 +52,8 @@ document.getElementById("donation-btn-2").addEventListener("click",function(even
 
     document.getElementById("hitory-section").appendChild(div)
 
-    // const modal_get = my_modal_5.showModal()
+    const modal_get = my_modal_1.showModal()
 })
 
 
 
-// ==========================================================================================
-
-
-// document.getElementById("close-btn").addEventListener("click",function(event){
-//     event.preventDefault()
-
-
-
-
-
-
-
-
-
-
-// })
