@@ -52,6 +52,9 @@ document.getElementById("donation-btn-1").addEventListener("click",function(even
 
     document.getElementById("hitory-section").appendChild(div)
 
+    document.getElementById("amount-1").value = '';
+  
+
     const modal_get = my_modal_1.showModal()
 
 

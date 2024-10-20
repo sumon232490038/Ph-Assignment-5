@@ -49,6 +49,7 @@ document.getElementById("donation-btn-3").addEventListener("click",function(){
         <small class="pl-0 lg:pl-5 py-2 rounded bg-[#f3f3f3]"> ${dateInBangladeshk} </small>`
 
     document.getElementById("hitory-section").appendChild(divk)
+    document.getElementById("amount-3").value = '';
 
     const modal_get = my_modal_1.showModal()
 
